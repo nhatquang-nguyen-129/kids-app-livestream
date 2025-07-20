@@ -1,6 +1,6 @@
 # app/main.py
 from fastapi import FastAPI
-from app.routes.livestream import router as livestream_router
+from routes.livestream import router as livestream_router
 
 app = FastAPI(
     title="Livestream Service",
